@@ -1,0 +1,17 @@
+{
+    "port": 8008,
+    "mongodb" : {
+        "url": "mongodb://localhost:27017/Routematrics"
+    },
+    "modules" : {
+        "customer" : {
+            "versions" : ["v1","v2"]
+        }
+    },
+    "twilio":{
+        "accountSid":"AC8e61ce03852162d00803c2b30294ecb9",
+        "authToken":"36bb3b2d89bd4526f1ff5187ff8829ad",
+        "servicesId":"VA5aad91ee10528912179cb4cfcdbf6af2"
+    }
+
+}
